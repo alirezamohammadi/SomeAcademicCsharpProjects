@@ -1,0 +1,22 @@
+﻿<Window x:Class="Puzzle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Puzzle"
+        mc:Ignorable="d"
+        Title="جورچین" Height="344.878" Width="252.684" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="255" VerticalAlignment="Top" Width="242" Margin="0,30,0,0" Background="#FF288ECD"/>
+        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn1_Click"/>
+        <Button x:Name="btn4" Content="Button" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn4_Click"/>
+        <Button x:Name="btn7" Content="Button" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn7_Click"/>
+        <Button x:Name="btn8" Content="Button" HorizontalAlignment="Left" Margin="85,189,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn8_Click"/>
+        <Button x:Name="btn9" Content="Button" HorizontalAlignment="Left" Margin="160,189,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn9_Click"/>
+        <Button x:Name="btn6" Content="Button" HorizontalAlignment="Left" Margin="160,114,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn6_Click"/>
+        <Button x:Name="btn3" Content="Button" HorizontalAlignment="Left" Margin="160,39,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn3_Click"/>
+        <Button x:Name="btn2" Content="Button" HorizontalAlignment="Left" Margin="85,39,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn2_Click"/>
+        <Button x:Name="btn5" Content="Button" HorizontalAlignment="Left" Margin="85,114,0,0" VerticalAlignment="Top" Width="70" Height="70" Click="btn5_Click"/>
+
+    </Grid>
+</Window>

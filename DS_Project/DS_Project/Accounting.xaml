@@ -1,0 +1,22 @@
+﻿<Page x:Class="DS_Project.Accounting"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DS_Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="269" d:DesignWidth="498"
+      Title="Accounting">
+
+    <Grid FlowDirection="RightToLeft">
+        <ListBox x:Name="lsb_females" HorizontalAlignment="Left" Height="95" Margin="44,28,0,0" VerticalAlignment="Top" Width="151" Loaded="lsb_females_Loaded"/>
+        <ListBox x:Name="lsb_males" HorizontalAlignment="Left" Height="95" Margin="44,154,0,0" VerticalAlignment="Top" Width="151" Loaded="lsb_males_Loaded"/>
+        <Label x:Name="label" Content="صف آقایان" HorizontalAlignment="Left" Margin="44,123,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="label_Copy" Content="صف خانم ها" HorizontalAlignment="Left" Margin="44,-3,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <ListBox x:Name="lsb_shoppingBag" HorizontalAlignment="Left" Height="116" Margin="310,54,0,0" VerticalAlignment="Top" Width="109"/>
+        <Label x:Name="label1" Content="سبد خرید:" HorizontalAlignment="Left" Margin="310,28,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="lbl_factor" Content="" HorizontalAlignment="Left" Margin="310,183,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="btn_exitFromQueue" Content="صدور فاکتور(خانم ها)" HorizontalAlignment="Left" Margin="218,230,0,0" VerticalAlignment="Top" Width="112" Click="btn_exitFromQueue_Click"/>
+
+    </Grid>
+</Page>

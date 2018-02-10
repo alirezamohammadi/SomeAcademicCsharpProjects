@@ -1,0 +1,26 @@
+﻿<Page x:Class="Library_Management_System.AddBook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="AddBook">
+    <Grid>
+        <Label Content="Book Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,22,0,0" Width="114"/>
+        <Label Content="Book ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,48,0,0" Width="114"/>
+        <Label Content="Writer Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,74,0,0" Width="114"/>
+        <Label Content="Publisher:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,100,0,0" Width="114"/>
+        <Label Content="Publication Year:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,126,0,0" Width="114"/>
+        <Label Content="Total Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,152,0,0" Width="114"/>
+        <Label x:Name="dpRegistration" Content="Registration Date:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,178,0,0" Width="114"/>
+        <TextBox x:Name="txbName" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="148,22,0,0"/>
+        <TextBox x:Name="txbId" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="148,48,0,0"/>
+        <TextBox x:Name="txbWriterName" HorizontalAlignment="Center" Height="20" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="148,74,0,0"/>
+        <TextBox x:Name="txbPublisher" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="148,99,0,0"/>
+        <TextBox x:Name="txbPublicationYear" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="148,125,0,0"/>
+        <TextBox x:Name="txbTotalNumber" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="148,152,0,0"/>
+        <DatePicker x:Name="dpRegistrationDate" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="164,178,16,0" Width="120"/>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="118,220,0,0" Click="btnAdd_Click"/>
+    </Grid>
+</Page>

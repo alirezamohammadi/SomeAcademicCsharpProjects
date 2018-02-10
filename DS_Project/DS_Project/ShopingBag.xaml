@@ -1,0 +1,24 @@
+﻿<Page x:Class="DS_Project.ShopingBag"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DS_Project"
+      mc:Ignorable="d" 
+      d:DesignHeight="296" d:DesignWidth="498"
+      Title="ShopingBag" VerticalAlignment="Center">
+
+    <Grid FlowDirection="RightToLeft" Margin="-2,0,1.6,0" Loaded="Grid_Loaded">
+        <Button x:Name="btn_search" Content="جستجو" Margin="212,104,211,0" Width="75" Height="23" VerticalAlignment="Top" Click="btn_search_Click"/>
+        <TextBox x:Name="txb_fName" Height="23" Margin="188,32,190,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="نام:" Margin="56,32,418,0" VerticalAlignment="Top" Height="28" Foreground="White" RenderTransformOrigin="-0.492,0.571"/>
+        <TextBox x:Name="txb_lName" Height="23" Margin="188,60,190,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="نام خانوادگی:" Margin="56,65,370,0" VerticalAlignment="Top" Height="39" Foreground="White"/>
+        <ListBox x:Name="listBox_books" Height="100" Margin="33,160,269,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl_message" Content="" Margin="56,95,286,0" VerticalAlignment="Top" Foreground="White"/>
+        <ListBox x:Name="listBox_boughtBooks" Height="100" Margin="269,160,33,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="کل کتاب ها:" HorizontalAlignment="Left" Margin="25,130,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Label x:Name="lbl_shoppingBagPerson" Content="سبد خرید" HorizontalAlignment="Left" Margin="269,127,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="btn_buy" Content="خرید" HorizontalAlignment="Left" Margin="234,201,0,0" VerticalAlignment="Top" Width="30" IsEnabled="False" Click="btn_buy_Click"/>
+    </Grid>
+</Page>

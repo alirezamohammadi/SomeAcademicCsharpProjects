@@ -1,0 +1,20 @@
+﻿<Page x:Class="Library_Management_System.LoanBook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="LoanBook">
+
+    <Grid>
+        <Label Content="Member ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,22,0,0" Width="114"/>
+        <Label Content="Book ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,48,0,0" Width="114"/>
+        <TextBox x:Name="txbMemberId" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="164,22,16,0"/>
+        <TextBox x:Name="txbBookId" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="164,48,16,0" IsEnabled="False"/>
+        <Label x:Name="___No_Name_" Content="Notice: A member can't loan more than 3 book &#xD;&#xA;at the same time ." HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.203,0.352" Width="274" Height="54"/>
+        <Button x:Name="btnLoan" Content="Loan Book" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="115,126,0,0" IsEnabled="False" Click="btnLoan_Click"/>
+        <Button x:Name="btnSearchMember" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="115,102,0,0" Click="btnSearchMember_Click"/>
+
+    </Grid>
+</Page>

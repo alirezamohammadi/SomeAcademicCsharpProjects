@@ -1,0 +1,23 @@
+﻿<Page x:Class="Library_Management_System.SearchMember"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="SearchMember">
+
+    <Grid>
+        <Label Content="ID Number:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,12,0,0" Width="114"/>
+        <TextBox x:Name="txbId" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="164,12,16,0"/>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="118,230,0,0" Click="btnSearch_Click"/>
+        <GroupBox Header="Info" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,38,0,0" Height="175" Width="280">
+            <Label x:Name="lblLiability" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,132,0,-6" Width="244"/>
+        </GroupBox>
+        <Label x:Name="lblLastName" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,96,0,0" Width="244"/>
+        <Label x:Name="lblFirstName" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,65,0,0" Width="244"/>
+        <Label x:Name="lblRegistrationDate" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,158,0,0" Width="244"/>
+        <Label x:Name="lblNationalCode" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="28,127,0,0" Width="244"/>
+
+    </Grid>
+</Page>

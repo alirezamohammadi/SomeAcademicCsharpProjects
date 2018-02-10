@@ -1,0 +1,18 @@
+﻿<Page x:Class="Library_Management_System.ReturnBook"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="ReturnBook">
+
+    <Grid>
+        <ListBox x:Name="LiboBooks" HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="155" Margin="73,113,0,0"/>
+        <Label Content="Member ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,22,0,0" Width="114"/>
+        <TextBox x:Name="txbMemberId" HorizontalAlignment="Center" Height="21" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="164,22,16,0"/>
+        <Button x:Name="btnReturn" Content="Return Book" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="116,233,0,0" IsEnabled="False" Click="btnReturn_Click"/>
+        <Button x:Name="btnSearchMember" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="116,209,0,0" Click="btnSearchMember_Click"/>
+
+    </Grid>
+</Page>
